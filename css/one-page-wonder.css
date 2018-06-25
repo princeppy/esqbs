@@ -110,8 +110,8 @@ header.masthead .bg-circle-4 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
+    padding-top: calc(3rem + 55px);
+    padding-bottom: 3rem;
   }
   header.masthead .masthead-content .masthead-heading {
     font-size: 6rem;
@@ -151,4 +151,48 @@ header.masthead .bg-circle-4 {
 
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.round-button {
+  display: block;
+  width: 250px;
+  height: 250px;
+  line-height: 50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  background: #464646;
+  box-shadow: 0 0 3px gray;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 90px;
+}
+
+.round-button:hover {
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+.logo-button {
+  display: block;
+  width: 250px;
+  height: 250px;
+  line-height: 50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  background: #FFFFFF;
+  box-shadow: 0 0 3px gray;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 75px;
+}
+
+.logo-button:hover {
+  text-decoration: none;
+  color: #f5f5f5;
 }
